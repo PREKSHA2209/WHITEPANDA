@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+  align-content:center;
+	font-family:Century Gothic;
+}
+header{
+    background-image:url(../rb.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-position:center bottom;
+  align-content:center;
+  }
+   ul {
+    right:100px;
+    word-spacing: 20px;
+    color:blue;
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BOOKING</title>
+    <link rel="stylesheet" type="text/css" href="s3.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+          <style>
+              body {
+              background-image: url('rb.jpg');
+              background-repeat: no-repeat;
+
+              background-attachment: fixed;
+              background-size: cover;
+              }
+            </style>
+         <form class="my-form">
+            <div class="form-group">
+                <label><b><big>CUSTOMER NAME:</big></b></label>
+                <input type="text" id="name"  name="name">
+            </div>
+            <div class="form-group">
+                <label for="phone"><b><big>Enter your phone number:</b></big></label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+            </div>
+
+            <div class="form-group">
+                <label for="ISSUEDATE"><b><big>ISSUE DATE:</big></b></label>
+                <input type="date" id="ISSUEDATE" name="ISSUEDATE">
+            </div>
+              <div class="form-group">
+                <label for="returndate"><b><big>RETURN DATE:</big></b></label>
+                <input type="date" id="RETURNDATE" name="RETURNDATE">
+            </div>
+              <ul>
+                 <li><a href="popup.html"><b><big>Submit</big></b></a></li>
+              </ul> 
+          </form>
+        </div>
+    </header>           
+</body>
+</html>
